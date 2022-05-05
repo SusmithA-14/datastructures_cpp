@@ -28,3 +28,16 @@ int main()
     vector<int>vis(n+1,0);
     DFS(1,vis,adj);
 }
+
+/*Input->>
+
+5 6
+1 2
+2 3
+2 4
+3 4
+4 5
+5 1
+Output-> 1 2 3 4 5
+
+*/
